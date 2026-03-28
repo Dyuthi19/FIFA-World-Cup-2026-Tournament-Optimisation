@@ -12,7 +12,7 @@ file_name = "fifa_data.xlsx"
 stadiums = pd.read_excel(file_name, sheet_name="Stadiums",header=1)
 stadiums_2026 = stadiums[stadiums["Year"] == 2026]
 
-# Match popularities calculated from 02_match_poopularity_calculation.py
+# Match popularities calculated from 02_match_popularity_calculation.py
 match_popularity = {
     0: [4.0, 1.11, 3.17, 2.67, 2.67, 3.17],
     1: [4.0, 1.97, 3.61, 2.87, 2.87, 3.61],
